@@ -3,6 +3,7 @@ import requests
 import nltk
 import string
 from nltk.stem import WordNetLemmatizer
+nltk.download()
 
 # Initialisation des stopwords /  words / lemmatization
 stopwords = nltk.corpus.stopwords.words('english') # Mots à supprimer
